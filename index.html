@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="navbar flex w-full py-3 bg-darkblue">
+      <nav class="flex w-[70%] mx-auto text-white justify-between items-center">
+        <div>
+          <img src="logo.png" alt="Razorpay" class="w-[180px] h-[40px]" />
+        </div>
+        <ul
+          class="flex jsutify-between items-center text-lg font-medium transition-all transiton-75"
+        >
+          <li
+            class="mx-4 hover:text-blue-300 group h-[30px] transition-all transiton-75"
+          >
+            <a href="#">Payments</a>
+            <div
+              class="hidden h-[2px] w-full bg-blue-300 rounded-sm group-hover:block"
+            ></div>
+          </li>
+          <li class="mx-4 hover:text-blue-300 group h-[30px]">
+            <a href="#">Banking</a>
+          </li>
+          <li class="mx-4 hover:text-blue-300 group h-[30px]">
+            <a href="#">Corporate Card</a>
+          </li>
+          <li class="mx-4 hover:text-blue-300 group h-[30px]">
+            <a href="#">Payroll</a>
+          </li>
+          <li class="mx-4 hover:text-blue-300 group h-[30px]">
+            <a href="#">Resources</a>
+          </li>
+          <li
+            class="mx-4 hover:text-blue-300 group h-[30px] transition-all transiton-300"
+          >
+            <a href="#">Support</a>
+            <div
+              class="hidden h-[2px] w-full bg-blue-300 rounded-sm group-hover:block"
+            ></div>
+          </li>
+          <li class="mx-4 hover:text-blue-300 group h-[30px]">
+            <a href="#">Pricing</a>
+          </li>
+        </ul>
+        <div class="flex justify-between items-center">
+          <img src="flag.png" alt="flag" class="w-[30px] h-[20px]" />
+          <button
+            class="mx-5 border-[1px] border-blue-300 w-[70px] py-1 items-center text-white hover:text-blue-300"
+          >
+            Log In
+          </button>
+          <button
+            class="flex justify-center border-[1px] border-blue-300 w-[140px] items-center font-medium text-blue-900 bg-white rounded-sm"
+          >
+            <span>Sign Up</span>
+            <img src="arrow.png" alt="" class="w-[34px]" />
+          </button>
+        </div>
+      </nav>
+    </div>
+    <div class="relative">
+      <div id="section" class="w-full bg-darkblue h-[640px] flex">
+        <div class="w-[50%] relative">
+          <div class="w-[58%] absolute right-[50px] my-[100px]">
+            <p class="font-semibold text-white text-6xl">Power your finance,</p>
+            <p class="font-semibold text-white text-6xl">Grow your business</p>
+            <p class="text-white font-light text-2xl my-5 text-justify">
+              Accept payments from customers. Automate payouts to vendors &
+              employees. Never run out of working capital.
+            </p>
+            <button
+              class="flex justify-center py-1 w-[200px] items-center font-medium text-white bg-lightblue rounded-md"
+            >
+              Sign Up Now
+              <img src="arrow.png" alt="" class="w-[40px]" />
+            </button>
+          </div>
+        </div>
+        <div class="w-[50%]">
+          <img
+            src="landing.jpg"
+            alt=""
+            class="w-[60%] my-9 hover:w-[70%] transition-all duration-500"
+          />
+        </div>
+      </div>
+      <div
+        class="w-full bg-darkblue h-[640px] absolute top-0 left-0 skew-y-3 origin-top-left -z-10"
+      ></div>
+      <div
+        class="w-full bg-white h-[340px] -skew-y-12 origin-bottom-right"
+      ></div>
+    </div>
+    <div id="info" class="w-full relative -top-[200px] z-40">
+      <div class="w-[700px] mx-auto group">
+        <h1 class="font-semibold text-3xl text-center">
+          Accept Payments with Razorpay Payment Suite
+        </h1>
+        <div
+          class="w-[60px] h-[3px] rounded-md bg-green-400 group-hover:w-[100%] mx-auto my-5 transition-all duration-700"
+        ></div>
+      </div>
+      <div
+        class="w-[70%] mx-auto border-[1px] border-gray-500 my-[100px] rounded-xl flex"
+      >
+        <div class="w-[50%] pl-16 mt-16">
+          <p class="font-medium text-4xl">
+            Supercharge your business with the all‑powerful
+            <span class="text-blue-600">Payment Gateway</span>
+          </p>
+          <ul class="font-medium text-lg mt-10">
+            <li class="my-3">100+ Payment Methods</li>
+            <li class="my-3">Industry Leading Success Rate</li>
+            <li class="my-3">Superior Checkout Experience</li>
+            <li class="my-3">Easy to Integrate</li>
+            <li class="my-3">Instant Settlements from day 1</li>
+            <li class="my-3">In-depth Reporting and Insights</li>
+          </ul>
+          <div id="buttons" class="flex items-center mt-10">
+            <button
+              class="flex justify-center py-1 w-[200px] items-center font-medium text-white bg-lightblue rounded-md mr-7"
+            >
+              Sign Up Now
+              <img src="arrow.png" alt="" class="w-[40px]" />
+            </button>
+            <a
+              href="#"
+              class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300"
+              >know more ></a
+            >
+          </div>
+        </div>
+        <div class="w-[50%] pb-2">
+          <img src="connect.png" alt="" class="w-full" />
+        </div>
+      </div>
+      <img
+        src="design.png"
+        alt=""
+        class="w-[200px] absolute top-[60px] right-5"
+      />
+      <img
+        src="design.png"
+        alt=""
+        class="w-[200px] absolute bottom-[0px] left-7"
+      />
+    </div>
+    <div
+      class="w-[70%] flex mx-auto flex-wrap py-10 mb-5"
+      style="margin-top: -250px"
+    >
+      <a href="#"
+        ><div
+          class="w-[30%] mx-5 my-4 px-5 py-5 rounded-lg shadow-sm shadow-gray-400 relative"
+        >
+          <svg
+            viewBox="0 0 349.33331298828125 225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            class="css-lqelpq"
+          >
+            <path
+              d="m 0 6 
+                a 6 6 0 0 1 6 -6 
+                h 250.33331298828125 
+                a 16 16 0 0 1 11 5 
+                l 77 77 
+                a 16 16 0 0 1 5 11 
+                v 126 
+                a 6 6 0 0 1 -6 6 
+                h -337.33331298828125 
+                a 6 6 0 0 1 -6 -6 
+                z"
+              fill="#fff"
+              class="z-40"
+            ></path>
+          </svg>
+          <img
+            src="icon.png"
+            alt=""
+            class="rounded-full w-16 h-16 absolute right-5 top-7 -z-10"
+          />
+          <div class="absolute top-14 left-10">
+            <p class="font-semibold text-xl mb-6">Payment Links</p>
+            <p class="font-medium mb-6 text-lg">
+              Shar payment link via an email, messanger, sma, chatbot etc and
+              get paid immnediately
+            </p>
+            <a
+              href="#"
+              class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+              >know more ></a
+            >
+          </div>
+        </div></a
+      >
+      <a href="#"
+        ><div
+          class="w-[30%] mx-5 my-4 px-5 py-5 rounded-lg shadow-sm shadow-gray-400 relative"
+        >
+          <svg
+            viewBox="0 0 349.33331298828125 225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            class="css-lqelpq"
+          >
+            <path
+              d="m 0 6 
+                a 6 6 0 0 1 6 -6 
+                h 250.33331298828125 
+                a 16 16 0 0 1 11 5 
+                l 77 77 
+                a 16 16 0 0 1 5 11 
+                v 126 
+                a 6 6 0 0 1 -6 6 
+                h -337.33331298828125 
+                a 6 6 0 0 1 -6 -6 
+                z"
+              fill="#fff"
+              class="z-40"
+            ></path>
+          </svg>
+          <img
+            src="icon.png"
+            alt=""
+            class="rounded-full w-16 h-16 absolute right-5 top-7 -z-10"
+          />
+          <div class="absolute top-14 left-10">
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <p class="font-medium mb-6 text-lg">
+              Shar payment link via an email, messanger, sma, chatbot etc and
+              get paid immnediately
+            </p>
+            <a
+              href="#"
+              class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+              >know more ></a
+            >
+          </div>
+        </div></a
+      >
+      <a href="#"
+        ><div
+          class="w-[30%] mx-5 my-4 px-5 py-5 rounded-lg shadow-sm shadow-gray-400 relative"
+        >
+          <svg
+            viewBox="0 0 349.33331298828125 225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            class="css-lqelpq"
+          >
+            <path
+              d="m 0 6 
+                a 6 6 0 0 1 6 -6 
+                h 250.33331298828125 
+                a 16 16 0 0 1 11 5 
+                l 77 77 
+                a 16 16 0 0 1 5 11 
+                v 126 
+                a 6 6 0 0 1 -6 6 
+                h -337.33331298828125 
+                a 6 6 0 0 1 -6 -6 
+                z"
+              fill="#fff"
+              class="z-40"
+            ></path>
+          </svg>
+          <img
+            src="icon.png"
+            alt=""
+            class="rounded-full w-16 h-16 absolute right-5 top-7 -z-10"
+          />
+          <div class="absolute top-14 left-10">
+            <p class="font-semibold text-xl mb-6">Payment Buttons</p>
+            <p class="font-medium mb-6 text-lg">
+              Shar payment link via an email, messanger, sma, chatbot etc and
+              get paid immnediately
+            </p>
+            <a
+              href="#"
+              class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+              >know more ></a
+            >
+          </div>
+        </div></a
+      >
+      <a href="#"
+        ><div
+          class="w-[30%] mx-5 my-4 px-5 py-5 rounded-lg shadow-sm shadow-gray-400 relative"
+        >
+          <svg
+            viewBox="0 0 349.33331298828125 225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            class="css-lqelpq"
+          >
+            <path
+              d="m 0 6 
+                a 6 6 0 0 1 6 -6 
+                h 250.33331298828125 
+                a 16 16 0 0 1 11 5 
+                l 77 77 
+                a 16 16 0 0 1 5 11 
+                v 126 
+                a 6 6 0 0 1 -6 6 
+                h -337.33331298828125 
+                a 6 6 0 0 1 -6 -6 
+                z"
+              fill="#fff"
+              class="z-40"
+            ></path>
+          </svg>
+          <img
+            src="icon.png"
+            alt=""
+            class="rounded-full w-16 h-16 absolute right-5 top-7 -z-10"
+          />
+          <div class="absolute top-14 left-10">
+            <p class="font-semibold text-xl mb-6">Subscriptions</p>
+            <p class="font-medium mb-6 text-lg">
+              Shar payment link via an email, messanger, sma, chatbot etc and
+              get paid immnediately
+            </p>
+            <a
+              href="#"
+              class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+              >know more ></a
+            >
+          </div>
+        </div></a
+      >
+      <a href="#"
+        ><div
+          class="w-[30%] mx-5 my-4 px-5 py-5 rounded-lg shadow-sm shadow-gray-400 relative"
+        >
+          <svg
+            viewBox="0 0 349.33331298828125 225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            class="css-lqelpq"
+          >
+            <path
+              d="m 0 6 
+                a 6 6 0 0 1 6 -6 
+                h 250.33331298828125 
+                a 16 16 0 0 1 11 5 
+                l 77 77 
+                a 16 16 0 0 1 5 11 
+                v 126 
+                a 6 6 0 0 1 -6 6 
+                h -337.33331298828125 
+                a 6 6 0 0 1 -6 -6 
+                z"
+              fill="#fff"
+              class="z-40"
+            ></path>
+          </svg>
+          <img
+            src="icon.png"
+            alt=""
+            class="rounded-full w-16 h-16 absolute right-5 top-7 -z-10"
+          />
+          <div class="absolute top-14 left-10">
+            <p class="font-semibold text-xl mb-6">Route</p>
+            <p class="font-medium mb-6 text-lg">
+              Shar payment link via an email, messanger, sma, chatbot etc and
+              get paid immnediately
+            </p>
+            <a
+              href="#"
+              class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+              >know more ></a
+            >
+          </div>
+        </div></a
+      >
+      <a href="#"
+        ><div
+          class="w-[30%] mx-5 my-4 px-5 py-5 rounded-lg shadow-sm shadow-gray-400 relative"
+        >
+          <svg
+            viewBox="0 0 349.33331298828125 225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            class="css-lqelpq"
+          >
+            <path
+              d="m 0 6 
+                a 6 6 0 0 1 6 -6 
+                h 250.33331298828125 
+                a 16 16 0 0 1 11 5 
+                l 77 77 
+                a 16 16 0 0 1 5 11 
+                v 126 
+                a 6 6 0 0 1 -6 6 
+                h -337.33331298828125 
+                a 6 6 0 0 1 -6 -6 
+                z"
+              fill="#fff"
+              class="z-40"
+            ></path>
+          </svg>
+          <img
+            src="icon.png"
+            alt=""
+            class="rounded-full w-16 h-16 absolute right-5 top-7 -z-10"
+          />
+          <div class="absolute top-14 left-10">
+            <p class="font-semibold text-xl mb-6">Smart Collect</p>
+            <p class="font-medium mb-6 text-lg">
+              Shar payment link via an email, messanger, sma, chatbot etc and
+              get paid immnediately
+            </p>
+            <a
+              href="#"
+              class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+              >know more ></a
+            >
+          </div>
+        </div></a
+      >
+      <div
+        class="w-[95%] border-[1px] rounded-lg border-blue-300 bg-blue-200 py-2 text-center mx-auto my-8"
+      >
+        <p class="font-medium text-lg text-black">
+          Not sure which product to choose?
+          <span class="opacity-60"
+            >Answer a few questions and we'll help you out</span
+          >
+          <span class="text-blue-600">Find me a product</span>
+        </p>
+      </div>
+    </div>
+    <div id="section3" class="relative w-full mt-[200px] mb-[100px]">
+      <div class="w-full bg-blueblack h-[1280px] z-40">
+        <div class="w-[700px] mx-auto group my-8">
+          <h1 class="font-semibold text-3xl text-center text-white">
+            Explore RazorpayX powered Business Banking
+          </h1>
+          <div
+            class="w-[60px] h-[3px] rounded-md bg-white group-hover:w-[100%] mx-auto my-5 transition-all duration-700"
+          ></div>
+        </div>
+        <div
+          class="w-[70%] mx-auto border-[1px] border-gray-500 my-[100px] rounded-xl flex pb-[50px]"
+        >
+          <div class="w-[64%] pl-16 mt-16 text-white">
+            <p class="font-medium text-4xl w-[80%]">
+              Manage your company’s finances and supercharge your business
+              banking with
+              <img
+                src="logo.png"
+                alt="Razorpay"
+                class="w-[180px] h-[40px] relative bottom-9 left-[220px]"
+              />
+            </p>
+            <ul class="font-medium text-lg mt-2">
+              <li class="my-3">Open a fully digital current account</li>
+              <li class="my-3">Automate payables & compliment payments</li>
+              <li class="my-3">
+                Simplify and track spends with Corporate cards
+              </li>
+              <li class="my-3">View financial insights at a glance</li>
+            </ul>
+            <div id="buttons" class="flex items-center mt-10">
+              <div
+                class="flex h-[60px] justify-center items-center overflow-hidden group"
+              >
+                <button
+                  class="flex justify-center py-1 px-5 items-center font-medium text-white bg-lightblue rounded-md mr-7 border-box h-[50px]"
+                >
+                  Sign Up Now
+                  <div
+                    class="w-12 h-[80px] bg-green-400 -rotate-[18deg] mx-5 relative group-hover:left-4 transition-all"
+                  >
+                    <img
+                      src="arrow.png"
+                      alt=""
+                      class="w-[40px] rotate-[18deg] relative top-5 left-2"
+                    />
+                  </div>
+                </button>
+              </div>
+              <a
+                href="#"
+                class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300"
+                >know more ></a
+              >
+            </div>
+          </div>
+          <div class="w-[46%] pb-2">
+            <img src="section3.png" alt="" class="w-full" />
+          </div>
+        </div>
+        <div
+          class="w-[70%] flex mx-auto flex-wrap py-10 mb-5 -mt-[100px] text-white"
+        >
+          <a href="#"
+            ><div class="w-[31%] my-4 mx-3 px-5 py-5 rounded-lg relative group">
+              <svg
+                viewBox="0 0 349.33331298828125 225"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none"
+                class="css-lqelpq"
+                viewBox="-2 -2 515 515"
+                style="filter: drop-shadow(2px 2px 3px rgb(75, 75, 75))"
+              >
+                <path
+                  d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.33331298828125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.33331298828125 
+                        a 6 6 0 0 1 -6 -6 
+                        z"
+                  fill="#181c2e"
+                  class="z-40"
+                  stroke-width="0.3px"
+                  stroke="#fff"
+                ></path>
+              </svg>
+              <img
+                src="flag.png"
+                alt=""
+                class="rounded-full w-16 h-16 absolute right-9 top-7 -z-10"
+              />
+              <div class="absolute top-14 left-10">
+                <p class="font-semibold text-xl mb-6">Payment Pages</p>
+                <p class="font-medium mb-6 text-lg">
+                  Shar payment link via an email, messanger, sma, chatbot etc
+                  and get paid immnediately
+                </p>
+                <a
+                  href="#"
+                  class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+                  >know more ></a
+                >
+              </div>
+            </div></a
+          >
+          <a href="#"
+            ><div class="w-[31%] my-4 mx-3 px-5 py-5 rounded-lg relative group">
+              <svg
+                viewBox="0 0 349.33331298828125 225"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none"
+                class="css-lqelpq"
+                viewBox="-2 -2 515 515"
+                style="filter: drop-shadow(2px 2px 3px rgb(75, 75, 75))"
+              >
+                <path
+                  d="m 0 6 
+                a 6 6 0 0 1 6 -6 
+                h 250.33331298828125 
+                a 16 16 0 0 1 11 5 
+                l 77 77 
+                a 16 16 0 0 1 5 11 
+                v 126 
+                a 6 6 0 0 1 -6 6 
+                h -337.33331298828125 
+                a 6 6 0 0 1 -6 -6 
+                z"
+                  fill="#181c2e"
+                  class="z-40"
+                  stroke-width="0.3px"
+                  stroke="#fff"
+                ></path>
+              </svg>
+              <img
+                src="flag.png"
+                alt=""
+                class="rounded-full w-16 h-16 absolute right-9 top-7 -z-10"
+              />
+              <div class="absolute top-14 left-10">
+                <p class="font-semibold text-xl mb-6">Payment Pages</p>
+                <p class="font-medium mb-6 text-lg">
+                  Shar payment link via an email, messanger, sma, chatbot etc
+                  and get paid immnediately
+                </p>
+                <a
+                  href="#"
+                  class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+                  >know more ></a
+                >
+              </div>
+            </div></a
+          >
+          <a href="#"
+            ><div class="w-[31%] mx-3 my-4 px-5 py-5 rounded-lg relative group">
+              <svg
+                viewBox="0 0 349.33331298828125 225"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none"
+                class="css-lqelpq"
+                viewBox="-2 -2 515 515"
+                style="filter: drop-shadow(2px 2px 3px rgb(75, 75, 75))"
+              >
+                <path
+                  d="m 0 6 
+                                a 6 6 0 0 1 6 -6 
+                                h 250.33331298828125 
+                                a 16 16 0 0 1 11 5 
+                                l 77 77 
+                                a 16 16 0 0 1 5 11 
+                                v 126 
+                                a 6 6 0 0 1 -6 6 
+                                h -337.33331298828125 
+                                a 6 6 0 0 1 -6 -6 
+                                z"
+                  fill="#181c2e"
+                  class="z-40"
+                  stroke-width="0.3px"
+                  stroke="#fff"
+                ></path>
+              </svg>
+              <img
+                src="flag.png"
+                alt=""
+                class="rounded-full w-16 h-16 absolute right-9 top-7 -z-10"
+              />
+              <div class="absolute top-14 left-10">
+                <p class="font-semibold text-xl mb-6">Payment Pages</p>
+                <p class="font-medium mb-6 text-lg">
+                  Shar payment link via an email, messanger, sma, chatbot etc
+                  and get paid immnediately
+                </p>
+                <a
+                  href="#"
+                  class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+                  >know more ></a
+                >
+              </div>
+            </div></a
+          >
+          <div
+            class="w-[95%] border-[1px] rounded-lg border-blue-300 py-5 text-center mx-auto my-8 flex justify-center items-center"
+          >
+            <p class="font-normal text-xl text-white">
+              Check out the live demo to learn how RazorpayX works.
+              <span class="font-bold text-xl">No sign-up required!</span>
+            </p>
+            <div
+              class="flex h-[60px] justify-center items-center overflow-hidden group mx-5"
+            >
+              <button
+                class="flex justify-center py-1 px-5 items-center font-medium text-white bg-lightblue rounded-md mr-7 border-box h-[50px]"
+              >
+                Check out the demo
+                <div
+                  class="w-12 h-[80px] bg-green-400 -rotate-[18deg] mx-5 relative group-hover:left-4 transition-all"
+                >
+                  <img
+                    src="arrow.png"
+                    alt=""
+                    class="w-[40px] rotate-[18deg] relative top-5 left-2"
+                  />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full bg-blueblack h-[1200px] absolute top-0 left-0 skew-y-6 origin-bottom-right -z-30"
+      ></div>
+      <div class="w-full overflow-hidden">
+        <img src="background.png" alt="" class="w-full" />
+      </div>
+      <div id="section4" class="w-[70%] mx-auto flex flex-wrap my-[100px]">
+        <div class="w-[31%] mx-3 h-[370px] my-4 px-4 py-4">
+          <p class="font-bold text-5xl leading-[60px]">
+            New in the <span class="text-lightblue">Razorpay</span> Product
+            Suite
+          </p>
+        </div>
+        <div class="w-[30%] mx-3 h-[370px] my-4 px-4 py-4 group">
+          <div
+            class="h-[95%] w-[95%] group-hover:w-[100%] group-hover:h-[100%] transition-all duration-700 shadow-xl shadow-gray-300 px-5 py-5"
+          >
+            <img src="icon.png" class="mb-4" alt="" />
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <div class="w-[250px]">
+              <p class="font-medium mb-6 text-lg">
+                Shar payment link via an email, messanger, sma, chatbot etc and
+                get paid immnediately
+              </p>
+            </div>
+            <a
+              href="#"
+              class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+              >know more ></a
+            >
+          </div>
+        </div>
+        <div class="w-[30%] mx-3 h-[370px] my-4 px-4 py-4 group">
+          <div
+            class="h-[95%] w-[95%] group-hover:w-[100%] group-hover:h-[100%] transition-all duration-700 shadow-xl shadow-gray-300 px-5 py-5"
+          >
+            <img src="icon.png" class="mb-4" alt="" />
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <div class="w-[250px]">
+              <p class="font-medium mb-6 text-lg">
+                Shar payment link via an email, messanger, sma, chatbot etc and
+                get paid immnediately
+              </p>
+            </div>
+            <a
+              href="#"
+              class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+              >know more ></a
+            >
+          </div>
+        </div>
+        <div class="w-[30%] mx-3 h-[370px] my-4 px-4 py-4 group">
+          <div
+            class="h-[95%] w-[95%] group-hover:w-[100%] group-hover:h-[100%] transition-all duration-700 shadow-xl shadow-gray-300 px-5 py-5"
+          >
+            <img src="icon.png" class="mb-4" alt="" />
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <div class="w-[250px]">
+              <p class="font-medium mb-6 text-lg">
+                Shar payment link via an email, messanger, sma, chatbot etc and
+                get paid immnediately
+              </p>
+            </div>
+            <a
+              href="#"
+              class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+              >know more ></a
+            >
+          </div>
+        </div>
+        <div class="w-[30%] mx-3 h-[370px] my-4 px-4 py-4 group">
+          <div
+            class="h-[95%] w-[95%] group-hover:w-[100%] group-hover:h-[100%] transition-all duration-700 shadow-xl shadow-gray-300 px-5 py-5"
+          >
+            <img src="icon.png" class="mb-4" alt="" />
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <div class="w-[250px]">
+              <p class="font-medium mb-6 text-lg">
+                Shar payment link via an email, messanger, sma, chatbot etc and
+                get paid immnediately
+              </p>
+            </div>
+            <a
+              href="#"
+              class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+              >know more ></a
+            >
+          </div>
+        </div>
+        <div class="w-[30%] mx-3 h-[370px] my-4 px-4 py-4 group">
+          <div
+            class="h-[95%] w-[95%] group-hover:w-[100%] group-hover:h-[100%] transition-all duration-700 shadow-xl shadow-gray-300 px-5 py-5"
+          >
+            <img src="icon.png" class="mb-4" alt="" />
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <div class="w-[250px]">
+              <p class="font-medium mb-6 text-lg">
+                Shar payment link via an email, messanger, sma, chatbot etc and
+                get paid immnediately
+              </p>
+            </div>
+            <a
+              href="#"
+              class="text-lightblue font-semibold hover:text-gray-800 transition-all duration-300 text-xl"
+              >know more ></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="section5" class="w-full absolute mt-[100px]">
+      <div class="w-full h-[700px] bg-plane z-40 -mt-[50px]">
+        <div class="w-[200px] mx-auto group ">
+          <h1 class="font-semibold text-3xl text-center text-white">
+            Features
+          </h1>
+          <div
+            class="w-[60px] h-[3px] rounded-md bg-green-300 group-hover:w-[100%] mx-auto my-5 transition-all duration-700"
+          ></div>
+        </div>
+        <div class="w-[500px] mx-auto">
+          <p class="font-normal text-lg text-center text-white">
+            Empower your business with all the right tools to accept online
+            payments and provide the best customer experience
+          </p>
+        </div>
+        <div class="w-[70%] mx-auto my-8 flex flex-wrap ">
+          <div class="w-[22%] mx-4 my-5 text-white">
+            <img src="plane.png" alt="" class="mt-3 ml-3" />
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <div class="w-[95%]">
+              <p class="font-medium mb-6 text-lg">
+                Shar payment link via an email, messanger, sma, chatbot etc and
+                get paid immnediately
+              </p>
+            </div>
+          </div>
+          <div class="w-[22%] mx-4 my-5 text-white">
+            <img src="plane.png" alt="" class="mt-3 ml-3" />
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <div class="w-[95%]">
+              <p class="font-medium mb-6 text-lg">
+                Shar payment link via an email, messanger, sma, chatbot etc and
+                get paid immnediately
+              </p>
+            </div>
+          </div>
+          <div class="w-[22%] mx-4 my-5 text-white">
+            <img src="plane.png" alt="" class="mt-3 ml-3" />
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <div class="w-[95%]">
+              <p class="font-medium mb-6 text-lg">
+                Shar payment link via an email, messanger, sma, chatbot etc and
+                get paid immnediately
+              </p>
+            </div>
+          </div>
+          <div class="w-[22%] mx-4 my-5 text-white">
+            <img src="plane.png" alt="" class="mt-3 ml-3" />
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <div class="w-[95%]">
+              <p class="font-medium mb-6 text-lg">
+                Shar payment link via an email, messanger, sma, chatbot etc and
+                get paid immnediately
+              </p>
+            </div>
+          </div>
+          <div class="w-[22%] mx-4 my-5 text-white">
+            <img src="plane.png" alt="" class="mt-3 ml-3" />
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <div class="w-[95%]">
+              <p class="font-medium mb-6 text-lg">
+                Shar payment link via an email, messanger, sma, chatbot etc and
+                get paid immnediately
+              </p>
+            </div>
+          </div>
+          <div class="w-[22%] mx-4 my-5 text-white">
+            <img src="plane.png" alt="" class="mt-3 ml-3" />
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <div class="w-[95%]">
+              <p class="font-medium mb-6 text-lg">
+                Shar payment link via an email, messanger, sma, chatbot etc and
+                get paid immnediately
+              </p>
+            </div>
+          </div>
+          <div class="w-[22%] mx-4 my-5 text-white">
+            <img src="plane.png" alt="" class="mt-3 ml-3" />
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <div class="w-[95%]">
+              <p class="font-medium mb-6 text-lg">
+                Shar payment link via an email, messanger, sma, chatbot etc and
+                get paid immnediately
+              </p>
+            </div>
+          </div>
+          <div class="w-[22%] mx-4 my-5 text-white">
+            <img src="plane.png" alt="" class="mt-3 ml-3" />
+            <p class="font-semibold text-xl mb-6">Payment Pages</p>
+            <div class="w-[95%]">
+              <p class="font-medium mb-6 text-lg">
+                Shar payment link via an email, messanger, sma, chatbot etc and
+                get paid immnediately
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full h-[700px] bg-plane absolute top-0 left-0 -skew-y-6 origin-bottom-left -z-40"
+      ></div>
+      <div
+        class="w-full h-[700px] bg-plane absolute top-0 left-0 skew-y-6 origin-top-left -z-30"
+      ></div>
+      <div
+        class="w-full h-[700px] bg-white relative top-[500px] -skew-y-12 origin-bottom-left -z-10"
+      ></div>
+    </div>
+  </body>
+</html>
