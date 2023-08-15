@@ -1,3 +1,8 @@
+body{
+    width:100vw;
+    overflow-x:hidden;
+}
+
 @media only screen and (max-width: 1750px) {
     #navbar{
         width:82%;
@@ -171,5 +176,161 @@
         width:90%;
         /* margin:auto; */
         /* padding:px; */
+    }
+}
+
+@media only screen and (max-width:750px){
+    .features{
+        height:2400px;
+        padding-top:50px;
+    }
+
+    .features_below{
+        top:2380px;
+    }
+
+    #section7{
+        margin-top:3050px;
+    }
+
+    .heading{
+        width:400px;
+        font-size:medium;
+        margin:auto;
+    }
+
+    .section1_textpart{
+        position:relative;
+        top:300px;
+        left:-100px
+    }
+
+    .notflex_750{
+        display:block;
+    }
+
+    .checkout_button{
+        margin-top:10px;
+    }
+
+    .intromain>div{
+        width:90%;
+    }
+
+    .intromain>div>img{
+        border-radius:10px;
+        margin-bottom:15px;
+    }
+
+    .intromain>div>div{
+        width:100%;
+        text-align:center;
+    }
+
+    .intromain>div>div>img{
+        width:55%;
+        margin:auto;
+    }
+}
+
+@media only screen and (max-width:600px){
+    /* .section1_imagepart{
+        display:none;
+    } */
+
+    .section1_textpart{
+        top:170px;
+    }
+
+    .section1{
+        height:1000px;
+    }
+
+    .non_flex_600{
+        display:block;
+    }
+
+    .merchants_up{
+        width:100%;
+    }
+
+    #merchants{
+        margin-top:0px;
+        animation:none;
+        width:90%;
+    }
+
+    .display_none_600{
+        display:none;
+    }
+
+    .join{
+        height:1400px;
+        overflow:visible;
+    }
+
+    .join>div{
+        width:100%;
+    }
+
+    .join>div>div{
+        width:90%;
+        margin:auto;
+    }
+
+    #section7 .heading{
+        position: relative;
+        left:-20px;
+    }
+
+    #section7{
+        margin-top:4400px;
+    }
+
+    .feature_heading{
+        padding:0px;
+        position:relative;
+        left:-45px;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .cardp{
+        margin:8px;
+    }
+
+    .section1_font{
+        font-size: larger;
+    }
+
+    .section1_textpart{
+        width:100%;
+        text-align: center;
+        position:relative;
+        left:1px;
+        padding:0px;
+    }
+
+    .section1{
+        height:600px;
+    }
+
+    .display_none_450{
+        display:none;
+    }
+
+    #section7 .heading{
+        left:-60px;
+    }
+}
+
+@media only screen and (max-width:390px){
+    .cardp, .cardl{
+        font-size:x-small;
+        margin:1px;
+    }
+
+    .section1{
+        height:700px;
     }
 }
