@@ -1,0 +1,175 @@
+@media only screen and (max-width: 1750px) {
+    #navbar{
+        width:82%;
+    }
+    #lastDesign{
+       display:none;
+    }
+    #anupamimage{
+        position:relative;
+        top:90px;
+    }
+}
+
+@media only screen and (max-width: 1500px){
+    #navbar{
+        width:90%;
+    }
+    .design{
+        display:none;
+    }
+
+    .introdiv{
+        width:70%;
+    }
+}
+
+@media only screen and (max-width: 1350px){
+    .navul>li{
+        margin-left: 8px;
+        font-size: smaller;
+    }
+    #navbar{
+        width:95%;
+    }
+    .accept_payment{
+        width:90%;
+    }
+    .navbar_signup{
+        width:100px;
+        padding-left:8px;
+    }
+    #section4{
+        width:90%;
+    }
+
+    .razorpay_logo{
+        display:none;
+    }
+
+    #razorpay_text{
+        opacity:1;
+
+    }
+}
+
+@media only screen and (max-width:1115px){
+    .picture_text{
+        display:block;
+    }
+    .textpart{
+        width:90%;
+        display:block;
+        margin:auto;
+        position:relative;
+        top:0px;
+        bottom:0px;
+        left:0px;
+        right:0px;
+    }
+
+    .imagepart{
+        width:50%;
+        display:block;
+        margin:auto;
+        position:relative;
+        top:0px;
+        bottom:0px;
+        left:0px;
+        right:0px;
+    }
+
+    .display_none_1100{
+        display:none;
+    }
+
+    /* section1 */
+    .section1{
+        height:1200px;
+        margin-top: -40px;
+    }
+
+    .section1_textpart{
+        position:relative;
+        top:500px;
+        left:-100px
+    }
+
+    .section1_imagepart{
+        width:60%;
+        position:relative;
+        left:40px;
+    }
+
+    .landing{
+        width:100%;
+    }
+
+    .landing:hover{
+        width:100%;
+    }
+
+    /*info*/
+    #info{
+        margin-top:450px;
+    }
+
+    .infosection{
+        width:90%;
+    }
+
+    /*features*/
+    .features{
+        height:1400px;
+        padding-top:50px;
+    }
+
+    .features_below{
+        top:1380px;
+    }
+
+    /*explore*/
+    .explore{
+        width:90%;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    #navbar{
+        display:none;
+    }
+
+    .display_none_1000{
+        display:none;
+    }
+
+    #section3{
+        margin-top:-40px;
+        
+    }
+
+    .explorebox{
+        height:2400px;
+        padding-top:60px;
+    }
+
+    .join{
+        height:800px;
+    }
+
+    #section7{
+        margin-top:2050px;
+    }
+}
+
+@media only screen and (max-width:810px){
+    .display_none_800{
+        display:none;
+    }
+
+    .width_full_800{
+        width:90%;
+        /* margin:auto; */
+        /* padding:px; */
+    }
+}
